@@ -1,9 +1,10 @@
 <?php
 //Connette al database
 
-$dbHost="127.0.0.1";
-$dbUser="avmcode";
+$dbHost=getenv('IP');
+$dbUser=getenv('C9_USER');
 $dbPass="password";
+$dbport = 3306;
 $connect=mysql_connect($dbHost, $dbUser, $dbPass) or die ('Could not connect to a MySQL server using the default settings');
 
 
