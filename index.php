@@ -2,8 +2,8 @@
 
 include_once "connessioni/connect.php";
 
-echo "this is just a test/n";
+echo "this is just a test\n";
 
 
-echo "connection handler: $connect";
+echo "connection handler: ".$connect;
 ?>
